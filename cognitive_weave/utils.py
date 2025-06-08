@@ -13,8 +13,8 @@ _PLACEHOLDER_KEY = "YOUR_AZURE_OPENAI_KEY"
 _PLACEHOLDER_DEPLOYMENT = "YOUR_GPT4_DEPLOYMENT_NAME"
 
 # --- Hardcoded Azure OpenAI Credentials ---
-AZURE_OAI_ENDPOINT = "https://wow-rg-ai.cognitiveservices.azure.com"
-AZURE_OAI_KEY = "3U2zukcSZWNDiT999h4XnH7QPXoIeXgnwDBcSce6VI4dWW3h23dxJQQJ99BEACHYHv6XJ3w3AAAAACOGqCmH"
+AZURE_OAI_ENDPOINT = ""
+AZURE_OAI_KEY = ""
 AZURE_OAI_DEPLOYMENT_GPT4 = "gpt-4"
 API_VERSION = "2024-04-01-preview"
 # --- End of Hardcoded Credentials ---
@@ -29,8 +29,8 @@ if AZURE_OAI_ENDPOINT == _PLACEHOLDER_ENDPOINT or \
     print("This should not happen if you have hardcoded your actual credentials above.")
     print("Please check the variable assignments for AZURE_OAI_ENDPOINT, AZURE_OAI_KEY, and AZURE_OAI_DEPLOYMENT_GPT4.")
     print("="*80)
-elif AZURE_OAI_ENDPOINT == "https://wow-rg-ai.cognitiveservices.azure.com" and \
-     AZURE_OAI_KEY == "3U2zukcSZWNDiT999h4XnH7QPXoIeXgnwDBcSce6VI4dWW3h23dxJQQJ99BEACHYHv6XJ3w3AAAAACOGqCmH" and \
+elif AZURE_OAI_ENDPOINT == "" and \
+     AZURE_OAI_KEY == "" and \
      AZURE_OAI_DEPLOYMENT_GPT4 == "gpt-4":
     print("="*80)
     print("INFO: Using the specific Azure OpenAI credentials hardcoded in cognitive_weave/utils.py.")

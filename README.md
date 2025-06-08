@@ -95,4 +95,5 @@ We extend our heartfelt thanks to [WOW Labs (WorkOnward)](https://labs.workonwar
 
 ## License
 
-TBD - License information to be added. 
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+

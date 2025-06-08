@@ -1,0 +1,360 @@
+(weave) rahulvishwakarma@Rahuls-Air cognitive-weave % python main.py                         
+================================================================================
+INFO: Using the specific Azure OpenAI credentials hardcoded in cognitive_weave/utils.py.
+  Endpoint: https://wow.cognitiveservices.azure.com
+  Deployment: gpt-4
+  API Version: 2024-04-01-preview
+  Note: Ensure these credentials are correct and the API key is valid (typically 32 characters).
+================================================================================
+[INFO] ConversationalAgent initialized.
+[INFO]   SOI ready: Yes
+[INFO]   Conversational LLM client ready: Yes
+[INFO]   Using LLM deployment for conversation: gpt-4
+
+Welcome to the Cognitive Weave Conversational Agent!
+Type 'quit' to exit.
+I will try to remember our conversation and synthesize insights.
+
+You: I need some guidance. My spouse and I are considering a divorce. We've been married for 15 years and have two children, aged 10 and 13. It's all very overwhelming.
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "I need some guidance. My spouse and I are considering a divorce. We've been married for 15 years and have two children, aged 10 and 13. It's all very overwhelming."
+[INFO] SOI: Enriching text to IP attributes. Input text length: 163 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_27c1962e-9da5-4ed5-9dc6-aa1caee99892
+[INFO]   Situational Imprint: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation."
+[INFO]   Resonance Keys: ['divorce', '15 years marriage', 'two children', 'seeking guidance', 'overwhelming situation']
+[INFO]   Total IPs in memory: 1
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "I need some guidance. My spouse and I are considering a divorce. We've been married for 15 years and have two children, aged 10 and 13. It's all very overwhelming."
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "I need some guidance. My spouse and I are considering a divorce. We've been married for 15 years and have two children, aged 10 and 13. It's all very overwhelming."
+[INFO] Processed query keywords: {'children', 'married', 'two', 'aged', 'divorce', 'need', 'considering', 'and', 'spouse', 'years', 'overwhelming', 'weve', 'guidance'}
+[INFO] Retrieved 1 relevant IP(s):
+[INFO]   1. IP ID: IP_27c1962e-9da5-4ed5-9dc6-aa1caee99892, Imprint: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation." (Score: 19)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "I need some guidance. My spouse and I are considering a divorce. We've been married for 15 years and have two children, aged 10 and 13. It's all very overwhelming."
+[INFO] Successfully received response from conversational LLM.
+Agent: It sounds like you're going through a challenging time, and it's completely understandable to feel overwhelmed given the circumstances. Considering a divorce after such a significant period of marriage and with children involved is indeed a weighty decision.
+
+Here are a few steps you might consider as you navigate through this period:
+
+1. **Seek Professional Help**: It might be beneficial to consult with a marriage counselor or therapist who can provide professional guidance tailored to your situation. Counseling could offer you and your spouse a space to explore your feelings and decide if there might be a path to repairing the relationship or if moving forward with a divorce is the best option.
+
+2. **Communicate Openly**: Ensure that communication between you and your spouse remains open and honest. It’s important to express your feelings and concerns but also to listen to the other’s perspective. This mutual understanding might aid in making the process less painful, regardless of the outcome.
+
+3. **Consider the Children**: In decisions involving children, their well-being and stability are paramount. It could be helpful to talk to a child psychologist who can provide insights into how best to support them through this process. Plan how you will manage co-parenting and maintaining a stable environment for them.
+
+4. **Legal Advice**: Understanding the legal implications of divorce is crucial. Consulting with a family law attorney can provide you with a clearer understanding of what the process involves and help protect your interests and rights.
+
+5. **Support System**: Lean on friends, family, or support groups who can offer emotional support and practical advice. It’s important not to go through this alone.
+
+6. **Personal Reflection**: Take some time for personal reflection to consider your needs, aspirations, and emotional state. This can help in making a decision that is thoughtful and well-informed.
+
+Each family situation is unique, and it’s important to approach your decisions with care and consideration. Whatever path you choose, ensure it is one that is best for all involved, especially for your children.
+
+You: We own a house together with a significant mortgage, have some joint investment accounts, and about five years ago, we started a small online retail business that has become quite profitable. I'm worried about how all that will be divided.
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "We own a house together with a significant mortgage, have some joint investment accounts, and about five years ago, we started a small online retail business that has become quite profitable. I'm worried about how all that will be divided."
+[INFO] SOI: Enriching text to IP attributes. Input text length: 239 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_7f9e3fa0-58ec-4c46-b6d7-cb5552cd501f
+[INFO]   Situational Imprint: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business."
+[INFO]   Resonance Keys: ['joint ownership', 'mortgage', 'joint investment accounts', 'online retail business', 'profitable business', 'division of assets', 'financial concerns']
+[INFO]   Total IPs in memory: 2
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "We own a house together with a significant mortgage, have some joint investment accounts, and about five years ago, we started a small online retail business that has become quite profitable. I'm worried about how all that will be divided."
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "We own a house together with a significant mortgage, have some joint investment accounts, and about five years ago, we started a small online retail business that has become quite profitable. I'm worried about how all that will be divided."
+[INFO] Processed query keywords: {'business', 'mortgage', 'become', 'years', 'together', 'that', 'retail', 'small', 'house', 'started', 'online', 'investment', 'significant', 'accounts', 'five', 'and', 'profitable', 'ago', 'divided', 'quite', 'worried', 'joint'}
+[INFO] Retrieved 2 relevant IP(s):
+[INFO]   1. IP ID: IP_7f9e3fa0-58ec-4c46-b6d7-cb5552cd501f, Imprint: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business." (Score: 25)
+[INFO]   2. IP ID: IP_27c1962e-9da5-4ed5-9dc6-aa1caee99892, Imprint: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation." (Score: 4)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "We own a house together with a significant mortgage, have some joint investment accounts, and about five years ago, we started a small online retail business that has become quite profitable. I'm worried about how all that will be divided."
+[INFO] Successfully received response from conversational LLM.
+Agent: When dealing with the division of jointly owned assets in a divorce, it’s important to approach the situation thoughtfully and legally, especially given the complexity of your shared assets including a house with a significant mortgage, joint investment accounts, and a profitable online retail business.
+
+Here are some steps you can consider:
+
+1. **Legal Advice:** Consulting with a divorce attorney is crucial. An attorney can provide legal guidance specific to your state's laws on property division. Whether it’s equitable distribution or community property rules, understanding the legal framework will help you know what to expect.
+
+2. **Valuation of Assets:**
+   - **House and Mortgage:** Determine the current market value of your home and the outstanding mortgage balance. You might decide to sell the home and split the proceeds or one partner could buy out the other’s share.
+   - **Investment Accounts:** Evaluate the current value of these accounts. Decisions will need to be made whether to split the accounts or allocate them in a way that balances other asset divisions.
+   - **Online Business:** Given that the business is profitable, getting a professional business valuation is important. Deciding whether to continue as co-owners, buy out one partner's share, or sell the business are options to consider.
+
+3. **Negotiation and Mediation:** Through your respective attorneys, or with the help of a mediator, you can start to negotiate the division of these assets. Mediation can be a less adversarial approach, which might be particularly beneficial when a business is involved.
+
+4. **Financial Planning:** Consulting with a financial advisor can also be beneficial. They can help you understand the long-term impacts of different division scenarios and assist in planning your financial future post-divorce.
+
+5. **Emotional Considerations:** Divorce can be emotionally challenging. Support from counselors or therapists might help manage the stress and emotions during this period, especially as decisions about family-owned businesses and family homes can become emotionally charged.
+
+Approaching the situation with clear legal guidance, a plan for negotiation, and support for emotional well-being can help create a smoother process for all involved.
+
+You: Before we got married, we did sign a prenuptial agreement. I'm not even sure what it says anymore, but my spouse's family had insisted on it. Also, I'm thinking about moving to another state after this is all over to be closer to my family for support, and I'd want the children to come with me.
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "Before we got married, we did sign a prenuptial agreement. I'm not even sure what it says anymore, but my spouse's family had insisted on it. Also, I'm thinking about moving to another state after this is all over to be closer to my family for support, and I'd want the children to come with me."
+[INFO] SOI: Enriching text to IP attributes. Input text length: 295 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_0a4d62cd-afd6-4050-9c49-cf325c2013b7
+[INFO]   Situational Imprint: "The individual reflects on a prenuptial agreement signed before marriage and considers relocating to another state for family support, intending to take the children along."
+[INFO]   Resonance Keys: ['prenuptial agreement', 'marriage', 'relocation', 'family support', 'children', "spouse's family", 'moving to another state']
+[INFO]   Total IPs in memory: 3
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "Before we got married, we did sign a prenuptial agreement. I'm not even sure what it says anymore, but my spouse's family had insisted on it. Also, I'm thinking about moving to another state after this is all over to be closer to my family for support, and I'd want the children to come with me."
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "Before we got married, we did sign a prenuptial agreement. I'm not even sure what it says anymore, but my spouse's family had insisted on it. Also, I'm thinking about moving to another state after this is all over to be closer to my family for support, and I'd want the children to come with me."
+[INFO] Processed query keywords: {'says', 'sure', 'but', 'thinking', 'state', 'want', 'come', 'also', 'support', 'closer', 'another', 'prenuptial', 'family', 'anymore', 'even', 'married', 'agreement', 'this', 'insisted', 'sign', 'and', 'children', 'spouses', 'moving', 'got'}
+[INFO] Retrieved 2 relevant IP(s):
+[INFO]   1. IP ID: IP_0a4d62cd-afd6-4050-9c49-cf325c2013b7, Imprint: "The individual reflects on a prenuptial agreement signed before marriage and considers relocating to another state for family support, intending to take the children along." (Score: 28)
+[INFO]   2. IP ID: IP_27c1962e-9da5-4ed5-9dc6-aa1caee99892, Imprint: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation." (Score: 4)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "Before we got married, we did sign a prenuptial agreement. I'm not even sure what it says anymore, but my spouse's family had insisted on it. Also, I'm thinking about moving to another state after this is all over to be closer to my family for support, and I'd want the children to come with me."
+[INFO] Successfully received response from conversational LLM.
+Agent: Given your situation, it's important to revisit the contents of your prenuptial agreement, especially since you're contemplating significant changes like relocating and potentially altering your family dynamics. Prenuptial agreements can include provisions about relocation, custody, or financial arrangements that might be relevant in your case.
+
+Since your spouse's family insisted on the prenuptial agreement, it's possible that specific terms were included to protect their interests, which might affect your plans or your rights. It would be wise to consult with a family law attorney who can review the agreement and advise you based on its contents and your current intentions.
+
+Regarding relocation, if you decide to move to another state with your children, this could involve legal considerations, particularly concerning custody and parental rights. Each state has different laws and requirements for relocation, especially when both parents do not move. Typically, you would need to seek permission from the court or have consent from your spouse to relocate with the children, ensuring it aligns with the children’s best interests.
+
+As you feel overwhelmed and are considering major life changes, seeking legal and emotional support is crucial. A lawyer can provide detailed guidance on the legal aspects, while a counselor or therapist might help you navigate the emotional and practical aspects of relocating and possibly restructuring your family setup.
+[INFO] 
+--- Attempting Insight Aggregate (IA) Synthesis ---
+[INFO] Using 3 IP imprints for IA synthesis:
+[INFO]   Imprint 1: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation."
+[INFO]   Imprint 2: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business."
+[INFO]   Imprint 3: "The individual reflects on a prenuptial agreement signed before marriage and considers relocating to another state for family support, intending to take the children along."
+[INFO] SOI: Synthesizing IA from 3 IP imprints.
+[INFO] SOI: Successfully received IA attributes from LLM.
+[INFO] Successfully synthesized Insight Aggregate attributes.
+[INFO] New IA (ID: IP_f3fffc3d-67d2-49ee-865b-e8cedd4db637) added to memory.
+[INFO]   IA Core Data: "The complexities of navigating a divorce with pre-existing legal agreements and shared assets require strategic planning and support, especially when children and cross-state relocations are involved."
+[INFO]   Total IPs in memory (including IA): 4
+
+You: Can you explain the general process for determining child custody in a divorce? And how might that prenuptial agreement impact the division of our assets, especially the business we built together during the marriage?
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "Can you explain the general process for determining child custody in a divorce? And how might that prenuptial agreement impact the division of our assets, especially the business we built together during the marriage?"
+[INFO] SOI: Enriching text to IP attributes. Input text length: 217 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_6ec0f8dd-ee60-4942-999d-ddfb39480c1b
+[INFO]   Situational Imprint: "The inquiry focuses on understanding the process of child custody determination in a divorce and the influence of a prenuptial agreement on asset division, particularly concerning a jointly built business."
+[INFO]   Resonance Keys: ['child custody', 'divorce', 'prenuptial agreement', 'asset division', 'business division', 'marital assets']
+[INFO]   Total IPs in memory: 5
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "Can you explain the general process for determining child custody in a divorce? And how might that prenuptial agreement impact the division of our assets, especially the business we built together during the marriage?"
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "Can you explain the general process for determining child custody in a divorce? And how might that prenuptial agreement impact the division of our assets, especially the business we built together during the marriage?"
+[INFO] Processed query keywords: {'process', 'business', 'built', 'agreement', 'impact', 'assets', 'custody', 'prenuptial', 'divorce', 'and', 'division', 'determining', 'especially', 'marriage', 'general', 'together', 'that', 'child'}
+[INFO] Retrieved 2 relevant IP(s):
+[INFO]   1. IP ID: IP_6ec0f8dd-ee60-4942-999d-ddfb39480c1b, Imprint: "The inquiry focuses on understanding the process of child custody determination in a divorce and the influence of a prenuptial agreement on asset division, particularly concerning a jointly built business." (Score: 28)
+[INFO]   2. IP ID: IP_7f9e3fa0-58ec-4c46-b6d7-cb5552cd501f, Imprint: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business." (Score: 12)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "Can you explain the general process for determining child custody in a divorce? And how might that prenuptial agreement impact the division of our assets, especially the business we built together during the marriage?"
+[INFO] Successfully received response from conversational LLM.
+Agent: Certainly! Let's break down your query into two parts: the general process for determining child custody in a divorce, and the impact of a prenuptial agreement on the division of assets, particularly concerning the business you built together.
+
+### Child Custody in Divorce
+
+The determination of child custody during a divorce primarily focuses on the best interests of the child. Courts consider various factors to decide custody arrangements, including but not limited to:
+
+1. **The emotional ties and relationship between the child and each parent.**
+2. **The parents' ability to provide for the child's needs (emotional, educational, social, etc.).**
+3. **The stability of each parent's home environment.**
+4. **The child’s age, health, and welfare.**
+5. **The child’s preference, depending on their age and maturity.**
+6. **Any history of domestic violence or substance abuse.**
+
+Custody can be awarded in several forms, such as sole custody to one parent or joint custody where both parents share responsibilities. Decisions are made case-by-case, and the process can vary significantly based on local laws.
+
+### Impact of a Prenuptial Agreement on Asset Division
+
+Regarding the division of assets, a prenuptial agreement can significantly influence the outcome, especially for assets acquired during the marriage, like a jointly built business. The specifics would depend on what was stipulated in the prenuptial agreement. Generally, prenuptial agreements define which assets are considered marital property and which are separate property, and they can set terms for how marital property is divided in the event of a divorce.
+
+If the prenuptial agreement includes clauses specifically about the business you built together, those clauses will likely dictate the division process. For example, the agreement might state that any business started after the marriage is to be divided equally, or it might assign a greater share to the spouse who contributed more financially or intellectually to the business. 
+
+If the prenuptial agreement does not specifically address the business, the division of this asset will typically be handled according to state laws governing marital property. In "community property" states, all marital property is generally divided equally. In "equitable distribution" states, assets are divided fairly based on several factors, similar to those considered for child custody.
+
+### Conclusion
+
+It's important to review the specific terms of your prenuptial agreement and consult with a legal professional who can provide advice based on the details of your situation and local laws. This approach will ensure that both the custody of your children and the division of your assets, including your business, are handled appropriately according to your pre-established agreement and applicable legal standards.
+
+You: This whole situation is causing me a lot of emotional distress and anxiety. I've had trouble sleeping and focusing at work. Is the emotional impact on a spouse considered in divorce proceedings, perhaps in relation to spousal support or even custody decisions?
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "This whole situation is causing me a lot of emotional distress and anxiety. I've had trouble sleeping and focusing at work. Is the emotional impact on a spouse considered in divorce proceedings, perhaps in relation to spousal support or even custody decisions?"
+[INFO] SOI: Enriching text to IP attributes. Input text length: 260 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_81121c68-a74c-4a9c-8ce3-41c52ad4855c
+[INFO]   Situational Imprint: "The text discusses the emotional distress experienced due to a situation, questioning if such impacts are considered in divorce proceedings related to spousal support or custody."
+[INFO]   Resonance Keys: ['emotional distress', 'divorce proceedings', 'spousal support', 'custody decisions', 'trouble sleeping', 'focusing at work', 'anxiety']
+[INFO]   Total IPs in memory: 6
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "This whole situation is causing me a lot of emotional distress and anxiety. I've had trouble sleeping and focusing at work. Is the emotional impact on a spouse considered in divorce proceedings, perhaps in relation to spousal support or even custody decisions?"
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "This whole situation is causing me a lot of emotional distress and anxiety. I've had trouble sleeping and focusing at work. Is the emotional impact on a spouse considered in divorce proceedings, perhaps in relation to spousal support or even custody decisions?"
+[INFO] Processed query keywords: {'emotional', 'trouble', 'impact', 'decisions', 'considered', 'causing', 'anxiety', 'focusing', 'whole', 'support', 'relation', 'ive', 'divorce', 'even', 'spousal', 'this', 'and', 'spouse', 'lot', 'situation', 'work', 'perhaps', 'sleeping', 'custody', 'proceedings', 'distress'}
+[INFO] Retrieved 2 relevant IP(s):
+[INFO]   1. IP ID: IP_81121c68-a74c-4a9c-8ce3-41c52ad4855c, Imprint: "The text discusses the emotional distress experienced due to a situation, questioning if such impacts are considered in divorce proceedings related to spousal support or custody." (Score: 35)
+[INFO]   2. IP ID: IP_f3fffc3d-67d2-49ee-865b-e8cedd4db637, Imprint: "This IA reflects the strategic and legal complexities involved in a divorce, emphasizing the need for careful planning and support." (Score: 8)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "This whole situation is causing me a lot of emotional distress and anxiety. I've had trouble sleeping and focusing at work. Is the emotional impact on a spouse considered in divorce proceedings, perhaps in relation to spousal support or even custody decisions?"
+[INFO] Successfully received response from conversational LLM.
+Agent: In divorce proceedings, the emotional impact on a spouse can indeed be considered, especially in matters relating to spousal support and custody decisions. Emotional distress and its effects, such as trouble sleeping and difficulty focusing at work, can be relevant in several ways:
+
+1. **Spousal Support**: Courts may consider the emotional state of a spouse when determining spousal support. If emotional distress impacts your ability to work or maintain employment, this could influence the amount and duration of spousal support awarded.
+
+2. **Custody Decisions**: When it comes to custody, the primary consideration is the best interests of the child. However, the emotional and psychological well-being of each parent can play a role in these decisions. If emotional distress significantly affects your ability to care for your child, it could be a factor. Conversely, if the distress is primarily caused by the other spouse's actions (such as abuse), this might be used to argue for custody arrangements that limit the child's exposure to such harmful behavior.
+
+3. **Overall Proceedings**: Emotional distress might also be discussed as part of the overall narrative in divorce proceedings. This can help paint a picture of the marital environment and the factors leading to the divorce.
+
+In any case, it's important to document your experiences and, if possible, seek professional help to address your emotional distress. Such documentation can be crucial in legal proceedings, and professional guidance can provide both personal support and additional evidence of the impact on your well-being. Consulting with a family law attorney who can guide you based on your specific circumstances and local laws would also be beneficial.
+
+You: Considering everything we've discussed – the children, the house, investments, our joint business, the prenup, my potential relocation, and the emotional toll – what are the top three legal areas I should be most concerned about right now? And what specific type of divorce lawyer should I be looking for given these complexities?
+
+[INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: "Considering everything we've discussed – the children, the house, investments, our joint business, the prenup, my potential relocation, and the emotional toll – what are the top three legal areas I should be most concerned about right now? And what specific type of divorce lawyer should I be looking for given these complexities?"
+[INFO] SOI: Enriching text to IP attributes. Input text length: 330 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_c5aca066-f720-4083-958d-19a7ea2f379b
+[INFO]   Situational Imprint: "The text seeks advice on prioritizing legal concerns and selecting a specialized divorce lawyer amid complex personal and financial circumstances."
+[INFO]   Resonance Keys: ['divorce lawyer', 'legal areas of concern', 'children', 'investments', 'relocation', 'emotional toll', 'joint business']
+[INFO]   Total IPs in memory: 7
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: "Considering everything we've discussed – the children, the house, investments, our joint business, the prenup, my potential relocation, and the emotional toll – what are the top three legal areas I should be most concerned about right now? And what specific type of divorce lawyer should I be looking for given these complexities?"
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: "Considering everything we've discussed – the children, the house, investments, our joint business, the prenup, my potential relocation, and the emotional toll – what are the top three legal areas I should be most concerned about right now? And what specific type of divorce lawyer should I be looking for given these complexities?"
+[INFO] Processed query keywords: {'concerned', 'discussed', 'business', 'emotional', 'given', 'everything', 'areas', 'looking', 'specific', 'house', 'toll', 'lawyer', 'type', 'divorce', 'potential', 'these', 'right', 'relocation', 'investments', 'and', 'children', 'complexities', 'considering', 'top', 'three', 'prenup', 'legal', 'weve', 'joint'}
+[INFO] Retrieved 2 relevant IP(s):
+[INFO]   1. IP ID: IP_c5aca066-f720-4083-958d-19a7ea2f379b, Imprint: "The text seeks advice on prioritizing legal concerns and selecting a specialized divorce lawyer amid complex personal and financial circumstances." (Score: 26)
+[INFO]   2. IP ID: IP_7f9e3fa0-58ec-4c46-b6d7-cb5552cd501f, Imprint: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business." (Score: 12)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: "Considering everything we've discussed – the children, the house, investments, our joint business, the prenup, my potential relocation, and the emotional toll – what are the top three legal areas I should be most concerned about right now? And what specific type of divorce lawyer should I be looking for given these complexities?"
+[INFO] Successfully received response from conversational LLM.
+Agent: Given the complexities you've outlined, including children, joint assets (like the house and investments), a joint business, a prenuptial agreement, potential relocation, and the overall emotional toll, it is indeed crucial to focus on the most pertinent legal areas first. Here are the top three legal concerns you should prioritize:
+
+1. **Children’s Welfare and Custody**: This is often the most sensitive and critical aspect of any divorce proceeding involving children. Decisions will need to be made regarding physical and legal custody, visitation rights, and child support. All these decisions should prioritize the best interests of the children, taking into account their stability, schooling, and emotional well-being.
+
+2. **Division of Assets and Enforcement of Prenuptial Agreement**: Given that there are significant assets like a house, investments, and a joint business, coupled with a prenuptial agreement, the division of these assets will be a major concern. The specifics of the prenuptial agreement will play a crucial role in determining how assets and liabilities are divided. It is essential to have a lawyer who can interpret and enforce the prenuptial agreement accurately while safeguarding your financial interests.
+
+3. **Relocation Considerations**: If you are considering relocating, especially with children, this could complicate custody arrangements and require careful legal navigation. Relocation can affect custody decisions, and typically requires consent from the other parent or a court order, particularly if moving will significantly impact the current custody arrangement or the other parent’s ability to visit the children.
+
+### Type of Divorce Lawyer Needed:
+Given these complexities, you should seek a divorce lawyer who specializes in handling high-asset divorces and is well-versed in family law, especially one with experience in custody and relocation issues. Additionally, it would be beneficial if the lawyer has experience with business law, given the involvement of your joint online business. This combination of expertise will be crucial in navigating the complexities of your situation effectively.
+
+A lawyer who is not only skilled legally but also sensitive to the emotional aspects can provide the necessary support and guidance through this challenging time. It might also be beneficial to look for someone who is known for a collaborative approach, should you prefer to settle matters out of court, or a more aggressive approach if you anticipate contested proceedings.
+
+Given your situation, finding a lawyer who can offer a comprehensive strategy covering these legal areas while aligning with your personal and financial goals is paramount.
+[INFO] 
+--- Attempting Insight Aggregate (IA) Synthesis ---
+[INFO] Using 7 IP imprints for IA synthesis:
+[INFO]   Imprint 1: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children, feeling overwhelmed by the situation."
+[INFO]   Imprint 2: "Concerns about the division of jointly owned assets, including a house, investments, and a profitable online business."
+[INFO]   Imprint 3: "The individual reflects on a prenuptial agreement signed before marriage and considers relocating to another state for family support, intending to take the children along."
+[INFO]   Imprint 4: "This IA reflects the strategic and legal complexities involved in a divorce, emphasizing the need for careful planning and support."
+[INFO]   Imprint 5: "The inquiry focuses on understanding the process of child custody determination in a divorce and the influence of a prenuptial agreement on asset division, particularly concerning a jointly built business."
+[INFO]   Imprint 6: "The text discusses the emotional distress experienced due to a situation, questioning if such impacts are considered in divorce proceedings related to spousal support or custody."
+[INFO]   Imprint 7: "The text seeks advice on prioritizing legal concerns and selecting a specialized divorce lawyer amid complex personal and financial circumstances."
+[INFO] SOI: Synthesizing IA from 7 IP imprints.
+[INFO] SOI: Successfully received IA attributes from LLM.
+[INFO] Successfully synthesized Insight Aggregate attributes.
+[INFO] New IA (ID: IP_0d6e4419-375f-41e2-904e-da991d7acda5) added to memory.
+[INFO]   IA Core Data: "Navigating the complexities of divorce involves strategic legal planning, emotional considerations, and financial foresight, particularly when children, substantial assets, and prenuptial agreements are involved."
+[INFO]   Total IPs in memory (including IA): 8
+
+You: [INFO] 
+--- Adding to Memory (Source: user_input) ---
+[INFO] Raw text: ""
+[INFO] SOI: Enriching text to IP attributes. Input text length: 0 chars.
+[INFO] SOI: Successfully received IP attributes from LLM.
+[INFO] Successfully created and stored IP: IP_e4168a2c-1373-4732-a13b-2dd08e285e7e
+[INFO]   Situational Imprint: "The text outlines the task of generating a structured JSON object to encapsulate the core semantic attributes of an Insight Particle based on provided text."
+[INFO]   Resonance Keys: ['text analysis', 'JSON object structure', 'Insight Particle', 'semantic attributes', 'information classification']
+[INFO]   Total IPs in memory: 9
+[INFO] 
+--- Generating Response for Query ---
+[INFO] User query: ""
+[INFO] 
+--- Retrieving Relevant Insights from Memory ---
+[INFO] Query for retrieval: ""
+[INFO] Processed query keywords: set()
+[INFO] No sufficiently relevant IPs found in memory for this query.
+[INFO] Falling back to retrieving the most recent IP.
+[INFO]   1. IP ID: IP_e4168a2c-1373-4732-a13b-2dd08e285e7e, Imprint: "The text outlines the task of generating a structured JSON object to encapsulate the core semantic attributes of an Insight Particle based on provided text." (Recent)
+[INFO] 
+--- Prompt for Conversational LLM ---
+[INFO] System Prompt Snippet:
+You are a helpful AI assistant.
+You have access to some memories from previous interactions or synthesized insights.
+Use these memories to provide a comprehensive and contextually relevant answer to the user's query.
+If the memories are not directly relevant, answer the query based on your general k...
+[INFO] User Query to LLM: ""
+[INFO] Successfully received response from conversational LLM.
+Agent: Hello! How can I assist you today?
+You: quit
+Agent: Goodbye!
+[INFO] 
+Chat session ended.
+[INFO] Final memory store contains 10 IPs:
+[INFO]   1. ID: IP_27c1962e-9da5-4ed5-9dc6-aa1caee99892 (Type: Particle), Content: "A person seeks guidance on considering a divorce after 15 years of marriage and having two children,..."
+[INFO]   2. ID: IP_7f9e3fa0-58ec-4c46-b6d7-cb5552cd501f (Type: Particle), Content: "Concerns about the division of jointly owned assets, including a house, investments, and a profitabl..."
+[INFO]   3. ID: IP_0a4d62cd-afd6-4050-9c49-cf325c2013b7 (Type: Particle), Content: "The individual reflects on a prenuptial agreement signed before marriage and considers relocating to..."
+[INFO]   4. ID: IP_f3fffc3d-67d2-49ee-865b-e8cedd4db637 (Type: Aggregate), Content: "The complexities of navigating a divorce with pre-existing legal agreements and shared assets requir..."
+[INFO]   5. ID: IP_6ec0f8dd-ee60-4942-999d-ddfb39480c1b (Type: Particle), Content: "The inquiry focuses on understanding the process of child custody determination in a divorce and the..."
+[INFO]   6. ID: IP_81121c68-a74c-4a9c-8ce3-41c52ad4855c (Type: Particle), Content: "The text discusses the emotional distress experienced due to a situation, questioning if such impact..."
+[INFO]   7. ID: IP_c5aca066-f720-4083-958d-19a7ea2f379b (Type: Particle), Content: "The text seeks advice on prioritizing legal concerns and selecting a specialized divorce lawyer amid..."
+[INFO]   8. ID: IP_0d6e4419-375f-41e2-904e-da991d7acda5 (Type: Aggregate), Content: "Navigating the complexities of divorce involves strategic legal planning, emotional considerations, ..."
+[INFO]   9. ID: IP_e4168a2c-1373-4732-a13b-2dd08e285e7e (Type: Particle), Content: "The text outlines the task of generating a structured JSON object to encapsulate the core semantic a..."
+[INFO]   10. ID: IP_76574d7e-09b0-4a6d-a3a2-aa5a82fdf832 (Type: Particle), Content: "The text represents a simple farewell...."

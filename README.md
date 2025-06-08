@@ -11,6 +11,10 @@ Cognitive Weave implements LLM-driven synthesis of new, structured insights (Ins
 - **Akash Vishwakarma**
   - University of Southern California
   - vishwaka@usc.edu
+ 
+- **Hojin Lee**
+  - WorkOnward, Inc
+  - hojin@workonward.com
 
 - **Mohith Suresh**
   - University of Southern California

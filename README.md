@@ -34,6 +34,8 @@ Cognitive Weave introduces a novel approach to information processing and memory
 3. **Semantic Oracle Interface (SOI)**: LLM-powered interface for deep semantic understanding
 4. **Spatio-Temporal Resonance Graph (STRG)**: Hybrid data structure for multi-faceted recall
 
+![cognitive_weave_reference_style-2](https://github.com/user-attachments/assets/36ce01c2-50b0-46b6-842f-b22dcbbc4769)
+
 ## Completed Tasks
 
 - [x] Basic project structure setup

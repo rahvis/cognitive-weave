@@ -89,6 +89,10 @@ cognitive-weave/
 
 Please contact any of the authors for contribution guidelines and to get involved in the project.
 
+## Acknowledgments
+
+We extend our heartfelt thanks to [WOW Labs (WorkOnward)](https://labs.workonward.org) for their pioneering work in responsible AI and design for social good. Their guidance, mentorship, and thought leadership in generative AI and autonomous agents have been a constant source of inspiration and played a key role in shaping the direction of this project.
+
 ## License
 
 TBD - License information to be added. 

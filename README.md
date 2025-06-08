@@ -1,5 +1,9 @@
 # Cognitive Weave
 
+This repository contains the official implementation of the paper:
+
+**Cognitive Weave: Synthesizing Abstracted Knowledge with a Spatio-Temporal Resonance Graph**
+
 Cognitive Weave implements LLM-driven synthesis of new, structured insights (Insight Aggregates) from enriched information units (Insight Particles), aiming for a more dynamic and emergent understanding within the agent's memory.
 
 ## Authors

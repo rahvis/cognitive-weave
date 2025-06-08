@@ -1,23 +1,24 @@
 # Cognitive Weave
 
-Cognitive Weave is an innovative project that implements a proactive, LLM-driven synthesis of new, structured insights (Insight Aggregates) from enriched information units (Insight Particles), aiming for a more dynamic and emergent understanding within the agent's memory.
+Cognitive Weave implements LLM-driven synthesis of new, structured insights (Insight Aggregates) from enriched information units (Insight Particles), aiming for a more dynamic and emergent understanding within the agent's memory.
 
 ## Authors
 
 - **Mohith Suresh**
-  - Affiliation: University of Southern California
-  - Email: mohiths@usc.edu
+  - University of Southern California
+  - mohiths@usc.edu
 
-- **Priyam**
-  - Email: psharma2@mail.yu.edu
+- **Priyam Shankar Sharma**
+  - Yeshiva University
+  - psharma2@mail.yu.edu
 
 - **Sparsh Gupta**
-  - Affiliation: University of Southern California
-  - Email: sparshg@usc.edu
+  - University of Southern California
+  - sparshg@usc.edu
 
 - **Yuvraj Anupam Chauhan**
-  - Affiliation: Northeastern University
-  - Email: chauhan.yuv@northeastern.edu
+  - Northeastern University
+  - chauhan.yuv@northeastern.edu
 
 ## Project Overview
 

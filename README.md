@@ -6,32 +6,6 @@ This repository contains the official implementation of the paper:
 
 Cognitive Weave implements LLM-driven synthesis of new, structured insights (Insight Aggregates) from enriched information units (Insight Particles), aiming for a more dynamic and emergent understanding within the agent's memory.
 
-## Authors
-
-- **Akash Vishwakarma**
-  - University of Southern California
-  - vishwaka@usc.edu
- 
-- **Hojin Lee**
-  - WorkOnward, Inc
-  - hojin@workonward.com
-
-- **Mohith Suresh**
-  - University of Southern California
-  - mohiths@usc.edu
-
-- **Priyam Shankar Sharma**
-  - Yeshiva University
-  - psharma2@mail.yu.edu
-
-- **Sparsh Gupta**
-  - University of Southern California
-  - sparshg@usc.edu
-
-- **Yuvraj Anupam Chauhan**
-  - Northeastern University
-  - chauhan.yuv@northeastern.edu
-
 ## Project Overview
 
 Cognitive Weave introduces a novel approach to information processing and memory management in AI systems. The core components include:
